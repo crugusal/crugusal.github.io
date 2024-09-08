@@ -1,0 +1,58 @@
+header{
+    background-color: #0e9c57;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+header img{
+    width: 150px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.primerCuerpo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.segundoCuerpo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.libroCuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contenido {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+.contenido:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contenido img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
